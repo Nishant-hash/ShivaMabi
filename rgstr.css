@@ -1,0 +1,18 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+}
+.form{
+	border-width: thick;
+	border-style: inset;
+}
+h1{
+	font-weight: bold;
+	font-size: 50px;
+	font-color: navy;
+}
+label{
+	font-weight: bold;
+	font-color: blue;
+	font-size: 30px;
+}
