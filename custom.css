@@ -1,35 +1,42 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+}
 .image{
 	float: left;
 	align-content: center;
 	border-style: groove;
 	border-size:5px; 
 }
-body{
-	margin: 0;
-	padding: 0;
+.logo{
+	width: 20%;
+	margin-right: 0;
+	float: left;
+	padding: 50px 0px;
+	height: 5px;
 }
 
-.logo img{
-	align-content: center;
-	width: 10%;
-	padding: 5px;
-	align-items: center;
+.name {
+		width: 80%;
+	margin-right: 0;
+	float: left;
+	padding: 50px 0px;
+	font-family:"Lucida Calligraphy";
 }
-.logo h1{
-	font-family: "Lucida Calligraphy";
-	font-weight: bold;
-	font-size: 50px;
-	padding: 10px;
-	text-align: center;
-}
-h2{align-content: center;
+h3  {text-align:center;
 	font-size: 25px;
 	margin: 0 auto;
 	padding: 10px;
 
 }
+p{
+	text-align: center;
+	font-size: 20px;
+}
 h2 a{
-		background: magenta;
+		background: silver;
 	border:1px solid teal;
 	border-radius:3px;
 	color:white;
