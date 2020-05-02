@@ -2,48 +2,48 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="rgstr.css">
-	<title>Register</title>
+	<title>Register Form</title>
 </head>
-<body background="Gateway.jpg">
+<body>
 	<div class="page">
 	<h1>Create your Account</h1>
-<div class="form">
+	<div class="form">
 			<form>
-				<label>Username:				<input type="text" name="user" placeholder="Username"></label><br>
-				<label>Password:
-					<input type="password" name="pwd" placeholder="Enter your password">
+				<label>Username:
+					<input type="text" name="user" placeholder="Username" required="">
 				</label><br>
-				<label>Re-Password:
-					<input type="password" name="pwd" placeholder="Re-enter  your password">
+				<label>Password:
+					<input type="password" name="pwd" placeholder="Enter your password" required="">
+				</label><br>
+			 <label>Re-Password:
+					<input type="password" name="pwd" placeholder="Re-enter your password">
 				</label><br>
 				<label>Gender:</label><br>
-					<input type="radio" name="radio">Male<br>
-					<input type="radio" name="radio">Female<br>
-					<input type="radio" name="other">
-					other<br>
+					<input type="radio" name="radio" value="male">Male<br>
+					<input type="radio" name="radio" value="female">Female<br>
+					<input type="radio" name="other" value="other">other<br>
 				</label>
-				Phone:<input type="tel" class="example">
-				Email:<input type="email" disabled="disabled">
-				Password:<input type="password">
-				<button type="submit">
-					<img src=""/>
-					<input type="Submit" value="">
+				<label for="birthdate">Date of Birth</label>
+				<input type="number" name="birthdate" min="2000" max="2020" placeholder="Year">
+				<input type="number" name="birthdate" placeholder="Month" min="01" max="12">
+				<input type="number" name="birthdate" placeholder="days" min="01" max="31"><br><br>
+				Phone:<input type="tel" class="example" value="+977"><br><br>
+				Email:<input type="email"><br><br>
+				Password:<input type="password"><br><br>
+				<button type="submit"onclick="alert('Account Created!')">
 				Submit
 				</button>
 			</form>
 		</div>
-		<input type="button" onclick="alert('hello world!')" value="Click Me">
+		
 		<section class="extra-info">
           <label for="extra">Anything else you want to add?</label>
           <br>
           <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
         </section>
 
-        <form action="upload_files.php" method="post" enctype="multipart/form-data">    Select file to upload:    <input type="file" name="fileSubmission" id="fileSubmission">    <input type="submit" value="Upload your file" name="submit"> </form>
-        <input type="tel" value="+8400000000">
-        <input type="week" name="">
-        <input type="url" name="Homepage">
-        <input type="datetime-local" />
-        <nav role="navigation">    <ul>        <li><a href="https://google.com">Google</a></li>        <li><a href="https://www.yahoo.com">Yahoo!</a></li>        <li><a href="https://www.bing.com">Bing</a></li>    </ul> </nav>
-</body>
+        <form action="upload_files.php" method="post" enctype="multipart/form-data">Select file to upload:
+        	<input type="file" name="fileSubmission" id="fileSubmission">    
+        	<input type="submit" value="Upload your file" name="submit"> </form>
+   </body>
 </html>
