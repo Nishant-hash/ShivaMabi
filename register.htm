@@ -30,6 +30,10 @@
 				Phone:<input type="tel" class="example" value="+977"><br><br>
 				Email:<input type="email"><br><br>
 				Password:<input type="password"><br><br>
+				<select><datalist><option type="text"></option>
+					<option value="computer-science">Computer Science</option>
+					<option value="Biology">Biology</option>
+				</select></datalist>
 				<button type="submit"onclick="alert('Account Created!')">
 				Submit
 				</button>
@@ -39,7 +43,9 @@
 		<section class="extra-info">
           <label for="extra">Anything else you want to add?</label>
           <br>
-          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+          <textarea id="extra" name="extra" rows="10" cols="60">
+          	Don't allow your mind to tell your heart what to do. The mind gives up easily.
+          </textarea>
         </section>
 
         <form action="upload_files.php" method="post" enctype="multipart/form-data">Select file to upload:
